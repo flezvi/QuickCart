@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import { auth, currentUser } from "@clerk/nextjs/server"; // ✔️ Valid, but… used differently
 
 const userSchema = new mongoose.Schema({
   _id: { type: String, required: true },
